@@ -12,7 +12,6 @@ client.on('message', msg => {
 });
 
 client.login(process.env.BOT_TOKEN);
-
 console.log('bot is ready');
 client.user.setGame(` `,"http://twitch.tv/S-F")
 });
