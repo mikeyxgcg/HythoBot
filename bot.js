@@ -12,6 +12,7 @@ client.on('message', msg => {
 });
 
 client.login(process.env.BOT_TOKEN);
+
 client.on('message', message => {
   if (message.guild) {
  let embed = new Discord.RichEmbed()
