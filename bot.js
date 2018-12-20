@@ -38,6 +38,7 @@ password : **${random2}**
 
 message.channel.send("**تم الارسال الحساب في الخاص | ☑ **")
 }});
+});
 
 
 client.login(process.env.BOT_TOKEN);
