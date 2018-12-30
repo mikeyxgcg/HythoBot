@@ -1,7 +1,7 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = 'البرفيكس حق البوت'
+const prefix = '-'
  
  
  
@@ -35,7 +35,7 @@ client.user.setGame(`HythoBot*-help  `,"https://www.twitch.tv/dggamingbot")
   let args = message.content.split(' ');
   if(args[0] === `${-}bc`) {
     if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send('⛔ | You dont have **ADMINISTRATOR** Permission!');
-    if(!args[1]) return message.channel.send('**➥ Useage:** ${prefix}bc message');
+    if(!args[1]) return message.channel.send('**➥ Useage:** ${-}bc message');
   
     let msgCount = 0;
     let errorCount = 0;
