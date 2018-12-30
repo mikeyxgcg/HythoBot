@@ -29,7 +29,8 @@ client.user.setGame(`HythoBot*-help  `,"https://www.twitch.tv/dggamingbot")
   console.log('╚[════════════]╝')
   console.log('')
   console.log('')
-client.on('message', message => {
+ 
+client.on('message', message => 
     if (message.author.bot) return;
      if (message.content === prefix + "email") {
 function randomem() {
